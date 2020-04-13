@@ -1,3 +1,5 @@
 def find_element_index(array, value_to_find)
-  array.times 
+  i = 0 
+  while i < array.length do 
+    array.include?(value_to_find)
 end
